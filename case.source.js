@@ -53,6 +53,7 @@
  */
 magic.Calendar = baidu.lang.createClass(function(options){
     var me = this;
+    var trest = '年份';
     me._options = baidu.object.extend({
         weekStart: 'sun',
         initDate: baidu.i18n.date.toLocaleDate(new Date()),
