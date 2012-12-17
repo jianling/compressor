@@ -6,7 +6,7 @@ var sys = require("util");
 var UglifyJS = vm.createContext({
     sys           : sys,
     console       : console,
-    MOZ_SourceMap : require("source-map")
+    MOZ_SourceMap : require("../lib/sourcemap.js")
 });
 
 function load_global(file) {
